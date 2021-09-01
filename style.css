@@ -95,13 +95,13 @@ button{
 .left{
     /* display: flex; */
     /* flex-direction: column; */
-    flex-basis: 30%;
+    flex-basis: 40%;
 }
 
 .right{
     /* display: flex; */
     /* flex-direction: column; */
-    flex-basis: 30%;
+    flex-basis: 40%;
 }
 
 hr{
