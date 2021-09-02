@@ -34,7 +34,9 @@ function buttonInputHandler(){
     // console.log(buttonColor)
     primaryButton.style.backgroundColor = buttonColor
     primaryButton.style.borderColor = buttonColor
+    primaryButton.style.color = inputBackground.value
     secondaryButton.style.borderColor = buttonColor
+    secondaryButton.style.color = buttonColor
 }
 
 function footerInputHandler(){
