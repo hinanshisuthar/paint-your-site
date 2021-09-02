@@ -76,6 +76,11 @@ button{
     font-weight: 700;
 }
 
+#text{
+    font-size: larger;
+    font-weight: bold;
+}
+
 .nav:hover{
     cursor: pointer;
     text-decoration: underline;
@@ -142,16 +147,21 @@ hr{
     .colors{
         flex: 0 0;
         justify-content:space-evenly;
-        margin: 0;
+        
     }
 
     .item-2{
-        justify-content: center;
+        justify-content:space-evenly;
         align-items:center;
     }
 
+    .children{
+        margin: 1rem;
+
+    }
+
     .right, .left{
-        flex-basis: 80%;
+        flex-basis: 60%;
     }
 
     .item-3{
@@ -159,9 +169,7 @@ hr{
         display: none;
     }
 
-    body { 
-        font-size: 0.8em; 
-    }
+     
     .center-img {
     width: 40%;
     margin-left: auto;
@@ -169,6 +177,17 @@ hr{
     }
 
     .footer{
-        font-size: x-small;
+        font-size: 0.5rem;
+    }
+
+    .nav:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        text-underline-offset: 0.5rem;
+    }
+
+    #text{
+        font-size: 1.1rem;
+        font-weight: bold;
     }
 }
