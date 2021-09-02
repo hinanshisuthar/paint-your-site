@@ -32,7 +32,7 @@
 .container{
     display: flex;
     flex-direction: row;
-    height: 25rem;
+    height: 23rem;
 }
 
 .item{
@@ -62,7 +62,7 @@
 }
 
 .center-img{
-    width: 25%;
+    width: 23%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -121,6 +121,25 @@ hr{
     margin: auto;
 }
 
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.socials{
+    margin: 0 1.5rem;   
+}
+
+.social-icon{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 @media screen and (max-width: 600px) {
     .container{
         flex-direction:column;
@@ -133,20 +152,35 @@ hr{
         flex-shrink: 0;
     }
 
-    .item-1{
+    /* .item-1{
         display: flex;
         flex-direction: row;
-        /* flex: 0;
-        flex-shrink: 0; */
+        flex: 0;
+        flex-shrink: 0;
         flex-wrap: wrap;
         align-items:baseline;
         justify-content: baseline;
+    } */
+
+    .item-1{
+        width: 100%;
+        display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
     }
 
-    .colors{
+    /* .colors{
         flex: 0 0;
-        justify-content:space-evenly;
-        margin: 0.7rem;
+        justify-content:space-between;
+        margin: 0.3rem;
+        align-items: baseline;
+        flex-wrap: wrap;
+    } */
+
+    .colors{
+        flex: 1 1 150px;
+        margin: 0.3rem;
     }
 
     .item-2{
@@ -170,10 +204,16 @@ hr{
 
      
     .center-img {
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
     }
+
+    /* .social-icon{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    } */
 
     .footer{
         font-size: 0.5rem;
@@ -188,6 +228,13 @@ hr{
     #text{
         font-size: 1.1rem;
         font-weight: bold;
+    }
+
+    #top-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 }
 
