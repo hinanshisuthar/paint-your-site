@@ -145,7 +145,7 @@ hr{
     .colors{
         flex: 0 0;
         justify-content:space-evenly;
-        
+        margin: 0.7rem;
     }
 
     .item-2{
@@ -187,5 +187,13 @@ hr{
     #text{
         font-size: 1.1rem;
         font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .center-img {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
